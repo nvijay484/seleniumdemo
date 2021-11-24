@@ -27,4 +27,5 @@ Scenario: Youtube channel name validations
 Scenario: Youtube channel name validations
 	Given Login to SpyGlass Apllication
 	Then Verify login user name and logout
+	Then Validate channel name
 	
