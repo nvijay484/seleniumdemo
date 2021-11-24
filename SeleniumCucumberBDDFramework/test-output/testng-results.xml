@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="1" ignored="0" total="1" passed="0">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Automation Test Report" duration-ms="108789" started-at="2021-08-19T05:22:13Z" finished-at="2021-08-19T05:24:02Z">
+    <groups>
+    </groups>
+    <test name="Automation Test Report" duration-ms="108789" started-at="2021-08-19T05:22:13Z" finished-at="2021-08-19T05:24:02Z">
+      <class name="com.testautomation.TestRunner.TestRunner">
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:com.testautomation.TestRunner.TestRunner@6379eb]" name="setUpClass" is-config="true" duration-ms="344" started-at="2021-08-19T10:52:14Z" finished-at="2021-08-19T10:52:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="FAIL" signature="feature(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.testautomation.TestRunner.TestRunner@6379eb]" name="feature" duration-ms="107524" started-at="2021-08-19T10:52:14Z" data-provider="features" finished-at="2021-08-19T10:54:02Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Youtube channel name validations"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Youtube channel name validation"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.NoSuchSessionException">
+            <message>
+              <![CDATA[Session ID is null. Using WebDriver after calling quit()?
+Build info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:26:55.152Z'
+System info: host: 'CHERRY', ip: '192.168.0.13', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_131'
+Driver info: driver.version: RemoteWebDriver]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchSessionException: Session ID is null. Using WebDriver after calling quit()?
+Build info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:26:55.152Z'
+System info: host: 'CHERRY', ip: '192.168.0.13', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_131'
+Driver info: driver.version: RemoteWebDriver
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:125)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:602)
+	at org.openqa.selenium.remote.RemoteWebDriver.getScreenshotAs(RemoteWebDriver.java:291)
+	at com.testautomation.Listeners.ExtentReportListener.captureScreenShot(ExtentReportListener.java:73)
+	at com.testautomation.Listeners.ExtentReportListener.testStepHandle(ExtentReportListener.java:52)
+	at com.testautomation.StepDef.YoutubeChannelValidationsStepDef.click_on_channel_name(YoutubeChannelValidationsStepDef.java:89)
+	at ✽.Click on channel name(./features/CucumberGroupsOr Tags.feature:29)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchSessionException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:com.testautomation.TestRunner.TestRunner@6379eb]" name="tearDownClass" is-config="true" duration-ms="31" started-at="2021-08-19T10:54:02Z" finished-at="2021-08-19T10:54:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- com.testautomation.TestRunner.TestRunner -->
+    </test> <!-- Automation Test Report -->
+  </suite> <!-- Automation Test Report -->
+</testng-results>
