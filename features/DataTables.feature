@@ -9,3 +9,4 @@ Scenario: Youtube channel name validations
 	And Click on channel name
 	Then Validate channel name
 	Then Validate channel name
+	Then Validate channel name
