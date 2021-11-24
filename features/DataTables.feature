@@ -8,3 +8,4 @@ Scenario: Youtube channel name validations
 	|selenium tutorial for beginner by bakkappa n|
 	And Click on channel name
 	Then Validate channel name
+	Then Validate channel name
