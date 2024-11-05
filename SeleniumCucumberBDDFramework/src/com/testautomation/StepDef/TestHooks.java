@@ -14,9 +14,7 @@ public class TestHooks {
 	@Before("@TestCase2")
 	public void beforeTestCase2(Scenario scenario) {		
 
-		System.out.println("=========================================");
-		System.out.println("Executing before Testcase2");
-		System.out.println("=========================================");
+		
 		
 	}
 	
